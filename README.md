@@ -15,7 +15,7 @@ AIME_ExtractSA.py: <Question>から解法と解答を得る
 
 ## 入力データセット
 AIME_dataset.7z: 既存数学データセットAIME
-AIME_1983_2024_Qp01.csv: 解析、10問\n
+AIME_1983_2024_Qp01.csv: 解析、10問<br>
 AIME_1983_2024_Qp02.csv: 確率、10問
 AIME_1983_2024_Qp03.csv: 幾何、10問
 AIME_1983_2024_Qp04.csv: 集合、10問
