@@ -39,14 +39,14 @@ AIME_1983_2024_Qp11.csv: 三角関数/その他(対数等)、9問<br>
 
 ## 基本的な使い方
 (1)難化数学問題の作成<br>
--プログラムとデータファイルを同一フォルダに格納<br>
--AIME_Synthesis.py実行<br>
--難化問題”NewQ”とカテゴリ”NewC”列が出力ファイルに追加される<br>
+- プログラムとデータファイルを同一フォルダに格納<br>
+- AIME_Synthesis.py実行<br>
+- 難化問題”NewQ”とカテゴリ”NewC”列が出力ファイルに追加される<br>
 　※”NewQ”には以下が含まれる<br>
-　-"NewProblemStatement"<br>
-  -"DescriptionOfModifications"<br>
-  -"StepByStepSolution"<br>
-  -"FinalAnswer_extracted"<br>
+　- "NewProblemStatement"<br>
+  - "DescriptionOfModifications"<br>
+  - "StepByStepSolution"<br>
+  - "FinalAnswer_extracted"<br>
 
 (2)作成された難化問題の整合性確認<br>
 ・上記(1)で作成された難化問題ファイルをプログラムに設定<br>
