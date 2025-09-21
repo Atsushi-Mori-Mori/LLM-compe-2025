@@ -42,22 +42,24 @@ AIME_1983_2024_Qp11.csv: 三角関数/その他(対数等)、9問<br>
 - プログラムとデータファイルを同一フォルダに格納<br>
 - AIME_Synthesis.py実行<br>
 - 難化問題”NewQ”とカテゴリ”NewC”列が出力ファイルに追加される<br>
-　※”NewQ”には以下が含まれる<br>
-　- "NewProblemStatement"<br>
-　- "DescriptionOfModifications"<br>
-　- "StepByStepSolution"<br>
-　- "FinalAnswer_extracted"<br>
+　※”NewQ”には以下の項目が含まれる<br>
+  - "NewProblemStatement": 難化問題<br>
+  - "DescriptionOfModifications": 難化への変更点<br>
+  - "StepByStepSolution": 難化問題の解法<br>
+  - "FinalAnswer_extracted": 難化問題の解答<br>
 
 (2)作成された難化問題の整合性確認<br>
-・上記(1)で作成された難化問題ファイルをプログラムに設定<br>
-・AIME_Judge.py実行<br>
-・ベースの既存問題に対し作成問題が解答を変えずに難化されているか確認<br>
-・確認結果”JudgeQ”と判定結果”Jresult”列が出力ファイルに追加される<br>
+- 上記(1)で作成された難化問題ファイルをプログラムに設定<br>
+- AIME_Judge.py実行<br>
+- ベースの既存問題に対し作成問題が解答を変えずに難化されているか確認<br>
+- 確認結果”JudgeQ”と判定結果”Jresult”列が出力ファイルに追加される<br>
 　※”Jresult”の判定出力は、'Pass' or 'NG'<br>
 
 (3)難化問題抽出<br>
-・上記(2)の判定結果が'Pass'の問題のみを人力で抽出
-・AIME_ExtractQ.py実行<br>
+- 上記(2)の判定結果が'Pass'の問題のみを人力で抽出<br>
+- AIME_ExtractQ.py実行<br>
+- 上記(1)の”NewQ”に含まれる4項目が独立した列に分割される<br>
+- 問題と解法をQuestionとThinkタグとして使用する<br>
 
 ## 作成される問題例
 (確率)x(複素数)の例<br>
