@@ -12,8 +12,8 @@ AIME_ExtractSA.py: <Question>から解法と解答を得る<br>
 AIME_dataset.7z: 既存数学データセットAIME<br>
 
 ## 入力データセット
-AIMEの1983年から2023年(+2024年Part2 まで)を網羅した約933問から選択
-https://huggingface.co/datasets/di-zhang-fdu/AIME_1983_2024
+AIMEの1983年から2023年(+2024年Part2 まで)を網羅した約933問から選択<br>
+https://huggingface.co/datasets/di-zhang-fdu/AIME_1983_2024<br>
 圧縮ファイルAIME_dataset.7zに含まれるファイル<br>
 ----------------------------------------------<br>
 AIME_1983_2024_Qp01.csv: 解析、10問<br>
