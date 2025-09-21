@@ -39,14 +39,14 @@ AIME_1983_2024_Qp11.csv: 三角関数/その他(対数等)、9問<br>
 
 ## 基本的な使い方
 (1)難化数学問題の作成
->>AIME_Synthesis.py実行
+>AIME_Synthesis.py実行
 
 
 (2)作成された難化問題の整合性確認
->>AIME_Judge.py実行
+>AIME_Judge.py実行
 
 (3)難化問題抽出
->>AIME_ExtractQ.py実行
+>AIME_ExtractQ.py実行
 
 ## 作成される問題例
 (確率)x(複素数)の例<br>
