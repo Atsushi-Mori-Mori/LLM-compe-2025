@@ -40,6 +40,9 @@ AIME_1983_2024_Qp11.csv: 三角関数/その他(対数等)、9問<br>
 - Windows / Python(Anaconda等) / OpenAI-APIなど
 
 ## 基本的な使い方
+(0)AIME数学データセットの各問題の分野判定<br>
+前処理として数学問題の問(Question)から問題の分野を判定する。<br>
+
 (1)難化数学問題の作成<br>
 - プログラムとデータファイルを同一フォルダに格納<br>
 - AIME_Synthesis.py実行<br>
