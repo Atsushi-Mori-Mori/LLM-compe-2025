@@ -106,11 +106,11 @@ AIME_1983_2024_Qp11.csv: 三角関数/その他(対数等)、9問<br>
 - Magpie Reasoning - HLE数学対策特化版<br>
   https://github.com/Ohtani-y/magpie<br>
 - AIME_1983_2024<br>
-　https://huggingface.co/datasets/di-zhang-fdu/AIME_1983_2024<br>
+  https://huggingface.co/datasets/di-zhang-fdu/AIME_1983_2024<br>
 - Magpie paper<br>
-　https://arxiv.org/pdf/2406.08464<br>
+  https://arxiv.org/pdf/2406.08464<br>
 - aratako<br>
-　https://zenn.dev/aratako_lm/articles/a5ae43fb2bfbb3<br>
+  https://zenn.dev/aratako_lm/articles/a5ae43fb2bfbb3<br>
 
 ## 注意事項
 松尾研LLMコンペ事務局は、OpenAIの”chatGPT-4o”等はクローズトモデルのため、<br>
